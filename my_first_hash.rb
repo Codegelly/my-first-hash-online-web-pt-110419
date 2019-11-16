@@ -1,6 +1,6 @@
 def my_hash
   # use the literal constructor to set the variable, my_hash, equal to a hash with key/value pairs of your choice.
-  {"key" => "value"}
+ hash = {"key" => "value"}
   end
  
 
@@ -32,12 +32,20 @@ def adding
                   "oil paintings" => 3
                  }
   # add 2 muskets to the shipping_manifest hash below
+<<<<<<< HEAD
 shipping_manifest ["muskets" ] = 2
+=======
+shipping_manifest[:muskets] = 2
+>>>>>>> 7a6f4be35b46121f74acc6763e67295bfcd782f3
 
 
   # add 4 gun powder to the shipping_manifest hash below
 
+<<<<<<< HEAD
 shipping_manifest ["gun powder" ] = 4
+=======
+shipping_manifest[:gun_powder] = 4
+>>>>>>> 7a6f4be35b46121f74acc6763e67295bfcd782f3
 
   # return the shipping_manifest hash below
   
